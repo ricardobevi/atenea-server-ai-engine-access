@@ -2,12 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.scuadra.atenea</groupId>
-	<artifactId>AteneaServer</artifactId>
+	<artifactId>AteneaAIEngineAccess</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AteneaServer</name>
+	<name>AteneaAIEngineAccess</name>
 	<description>The server that its going to manage the connection between the other modules and
 the AIEngine</description>
 
+<parent>
+  <groupId>AteneaPom</groupId>
+  <artifactId>AteneaPom</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+</parent>
 
 	<dependencies>
 
