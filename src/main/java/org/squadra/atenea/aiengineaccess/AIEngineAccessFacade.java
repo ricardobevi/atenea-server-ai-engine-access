@@ -1,7 +1,7 @@
-package org.atenea.aiengineaccess;
+package org.squadra.atenea.aiengineaccess;
 
-import org.scuadra.atenea.aiengine.AIEngineFacade;
-import org.scuadra.atenea.aiengine.Message;
+import org.squadra.atenea.aiengine.AIEngineFacade;
+import org.squadra.atenea.aiengine.Message;
 
 
 
@@ -12,7 +12,7 @@ public class AIEngineAccessFacade {
 	private AIEngineFacade aiEngineFacade;
 	
 	public AIEngineAccessFacade(){
-		AIEngineFacade aiEngineFacade = new AIEngineFacade();
+		aiEngineFacade = new AIEngineFacade();
 	}
 	
 	

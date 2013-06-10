@@ -1,6 +1,6 @@
 package org.atenea.aiengineaccess.test;
 
-import org.atenea.aiengineaccess.AIEngineAccessFacade;
+import org.squadra.atenea.aiengineaccess.AIEngineAccessFacade;
 
 public class AIEngineAccessTest {
 
