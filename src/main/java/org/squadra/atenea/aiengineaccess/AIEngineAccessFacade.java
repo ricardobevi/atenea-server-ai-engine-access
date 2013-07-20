@@ -16,7 +16,7 @@ public class AIEngineAccessFacade {
 	}
 	
 	
-	public String excecute(String input) {
+	public String execute(String input) {
 		
 		Message message = new Message(input);
 		
@@ -24,7 +24,7 @@ public class AIEngineAccessFacade {
 
 	}
 	
-	public Message excecute(Message input) {
+	public Message execute(Message input) {
 		
 		AIEngineFacade aiEngineFacade = new AIEngineFacade();
 		

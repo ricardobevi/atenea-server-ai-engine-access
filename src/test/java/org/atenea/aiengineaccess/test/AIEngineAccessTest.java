@@ -8,11 +8,11 @@ public class AIEngineAccessTest {
 		AIEngineAccessFacade engineAccess = new AIEngineAccessFacade();
 		
 		System.out.println( "##############################");
-		System.out.println( engineAccess.excecute("hola") );
-		System.out.println( engineAccess.excecute("hola") );
-		System.out.println( engineAccess.excecute("hola") );
-		System.out.println( engineAccess.excecute("hola") );
-		System.out.println( engineAccess.excecute("hola") );
+		System.out.println( engineAccess.execute("hola") );
+		System.out.println( engineAccess.execute("hola") );
+		System.out.println( engineAccess.execute("hola") );
+		System.out.println( engineAccess.execute("hola") );
+		System.out.println( engineAccess.execute("hola") );
 		System.out.println( "##############################");
 		while(true);
 	}
