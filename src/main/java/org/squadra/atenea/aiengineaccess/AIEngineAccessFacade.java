@@ -3,7 +3,8 @@ package org.squadra.atenea.aiengineaccess;
 import lombok.extern.log4j.Log4j;
 
 import org.squadra.atenea.aiengine.AIEngineFacade;
-import org.squadra.atenea.aiengine.Message;
+import org.squadra.atenea.ateneacommunication.Message;
+
 
 
 @Log4j

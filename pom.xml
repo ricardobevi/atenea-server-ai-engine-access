@@ -8,11 +8,11 @@
 	<description>The server that its going to manage the connection between the other modules and
 the AIEngine</description>
 
-<parent>
-  <groupId>AteneaPom</groupId>
-  <artifactId>AteneaPom</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-</parent>
+	<parent>
+		<groupId>AteneaPom</groupId>
+		<artifactId>AteneaPom</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+	</parent>
 
 	<dependencies>
 
@@ -21,6 +21,13 @@ the AIEngine</description>
 			<artifactId>AIEngine</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.squadra.atenea</groupId>
+			<artifactId>AteneaCommunication</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.squadra.atenea</groupId>
 			<artifactId>AteneaBase</artifactId>
